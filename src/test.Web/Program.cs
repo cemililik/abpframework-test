@@ -42,7 +42,9 @@ public class Program
         {
             Log.Fatal(ex, "Host terminated unexpectedly!");
             return 1;
+            //test
         }
+        
         finally
         {
             Log.CloseAndFlush();
